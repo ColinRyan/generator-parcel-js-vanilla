@@ -1,0 +1,13 @@
+{
+  "name": "<%= name %>",
+  "version": "0.1.0",
+  "description": "<%= description %>",
+  "private": "<%= private %>",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel index.html"
+  },
+  "license": "MIT",
+  "dependencies": {
+  }
+}
