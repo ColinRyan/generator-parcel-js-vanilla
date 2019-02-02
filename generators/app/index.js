@@ -44,5 +44,6 @@ module.exports = class extends Generator {
   installingDependencies() {
     // this.log("Installing dependencies")
     this.yarnInstall(['parcel'], { 'dev': true });
+    this.yarnInstall(['jest'], { 'dev': true });
   }
 }

@@ -5,7 +5,8 @@
   "private": "<%= private %>",
   "main": "index.js",
   "scripts": {
-    "start": "npx parcel index.html"
+    "start": "npx parcel index.html",
+    "test": "jest"
   },
   "license": "MIT",
   "dependencies": {
